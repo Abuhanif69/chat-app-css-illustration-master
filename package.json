@@ -1,0 +1,11 @@
+{
+  "name": "chat-app-css-illustration",
+  "version": "1.0.0",
+  "description": "Frontend Mentor — Chat app CSS illustration (HTML & CSS only)",
+  "private": true,
+  "scripts": {
+    "start": "npx --yes serve . -l 3000",
+    "dev": "npx --yes live-server --port=3000 --no-browser ."
+  },
+  "license": "MIT"
+}

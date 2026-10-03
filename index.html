@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Stay in touch with our dog walkers through a simple chat interface, then book and rate your walker in the same conversation.">
+  <meta name="theme-color" content="#a63dff">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preload" href="./fonts/rubik-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Frontend Mentor | Chat app CSS illustration</title>
+</head>
+<body>
+  <main class="feature">
+    <div class="phone"
+         role="img"
+         aria-label="Illustration of a chat between a customer and dog walker Samuel Green. He asks for pictures of the dog, the customer sends three photos, and Samuel offers a 30 minute walk for $29 or a 1 hour walk for $49.">
+      <span class="phone__notch"></span>
+
+      <div class="phone__screen">
+        <header class="chat-header">
+          <span class="chat-header__back"></span>
+          <img class="chat-header__avatar" src="./images/avatar.jpg" alt="" width="24" height="24">
+          <div class="chat-header__who">
+            <p class="chat-header__name">Samuel Green</p>
+            <p class="chat-header__status">Available to Walk</p>
+          </div>
+          <span class="chat-header__menu"></span>
+        </header>
+
+        <div class="chat">
+          <p class="bubble bubble--in" style="--i:0">That sounds great. I'd be happy with that.</p>
+          <p class="bubble bubble--in" style="--i:1">Could you send over some pictures of your dog, please?</p>
+
+          <div class="photos" style="--i:2">
+            <img src="./images/dog-image-1.jpg" alt="" width="40" height="40">
+            <img src="./images/dog-image-2.jpg" alt="" width="40" height="40">
+            <img src="./images/dog-image-3.jpg" alt="" width="40" height="40">
+          </div>
+
+          <p class="bubble bubble--out" style="--i:3">Here are a few pictures. She's a happy girl!</p>
+          <p class="bubble bubble--out" style="--i:4">Can you make it?</p>
+          <p class="bubble bubble--in bubble--gap" style="--i:5">She looks so happy! The time we discussed works. How long shall I take her out for?</p>
+
+          <div class="option" style="--i:6">
+            <span class="option__radio"></span>
+            <span class="option__label">30 minute walk</span>
+            <span class="option__price">$29</span>
+          </div>
+
+          <div class="option" style="--i:7">
+            <span class="option__radio"></span>
+            <span class="option__label">1 hour walk</span>
+            <span class="option__price">$49</span>
+          </div>
+        </div>
+
+        <div class="composer">
+          <span class="composer__placeholder">Type a message…</span>
+          <span class="composer__send"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="feature__copy">
+      <h1 class="feature__title">Simple booking</h1>
+      <p class="feature__text">
+        Stay in touch with our dog walkers through the chat interface. This makes it easy to
+        discuss arrangements and make bookings. Once the walk has been completed you can rate
+        your walker and book again all through the chat.
+      </p>
+    </div>
+  </main>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io/challenges/chat-app-css-illustration-O5auMkFqY">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/Abuhanif69">Hanif Yahaya Abubakar</a>.
+  </footer>
+</body>
+</html>
